@@ -1,0 +1,92 @@
+{
+    "name": "Client",
+    "options": {
+      "idInjection": true,
+      "mysql": {
+        "schema": "loopback-example-mysql",
+        "table": "client"
+      }
+    },
+
+    "properties": {
+        "id": {
+            "type": "Number",
+            "required": true,
+            "length": 10,
+            "precision": 10,
+            "scale": 0,
+            "mysql": {
+                "columnName": "id",
+                "dataType": "int",
+                "dataLength": 10,
+                "dataPrecision": 10,
+                "dataScale": 0,
+                "nullable": "N"
+            }
+        },
+        "nama": {
+            "type": "String",
+            "required": true,
+            "length": 100,
+            "precision": 10,
+            "scale": 0,
+            
+            "mysql": {
+                "columnName": "nama",
+                "dataType": "varchar",
+                "dataLength": 100,
+                "dataPrecision": 10,
+                "dataScale": 0,
+                "nullable": "N"
+            }
+          },
+      "alamat": {
+        "type": "String",
+        "required": true,
+        "length": 100,
+        "precision": 10,
+        "scale": 0,
+        
+        "mysql": {
+            "columnName": "alamat",
+            "dataType": "varchar",
+            "dataLength": 100,
+            "dataPrecision": 10,
+            "dataScale": 0,
+            "nullable": "N"
+        }
+      },
+      
+      "telepon": {
+        "type": "String",
+        "required": true,
+        "length": 100,
+        "precision": 10,
+        "scale": 0,
+        "mysql": {
+            "columnName": "telepon",
+            "dataType": "varchar",
+            "dataLength": 100,
+            "dataPrecision": 10,
+            "dataScale": 0,
+            "nullable": "N"
+        }
+    },
+      "status": {
+        "type": "String",
+        "required": true,
+        "length": 100,
+        "precision": 10,
+        "scale": 0,
+        
+        "mysql": {
+            "columnName": "status",
+            "dataType": "varchar",
+            "dataLength": 100,
+            "dataPrecision": 10,
+            "dataScale": 0,
+            "nullable": "N"
+        }
+      }
+    }
+  }

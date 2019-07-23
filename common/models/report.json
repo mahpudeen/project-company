@@ -1,0 +1,93 @@
+{
+    "name": "Report",
+    "options": {
+      "idInjection": true,
+      "mysql": {
+        "schema": "loopback-example-mysql",
+        "table": "report"
+      }
+    },
+
+    "properties": {
+        "id": {
+            "type": "Number",
+            "required": true,
+            "length": 10,
+            "precision": 10,
+            "scale": 0,
+            "mysql": {
+                "columnName": "id",
+                "dataType": "int",
+                "dataLength": 10,
+                "dataPrecision": 10,
+                "dataScale": 0,
+                "nullable": "N"
+            }
+        },
+        "kode_pesanan": {
+            "type": "String",
+            "required": true,
+            "length": 100,
+            "precision": 10,
+            "scale": 0,
+            
+            "mysql": {
+                "columnName": "kode_pesanan",
+                "dataType": "varchar",
+                "dataLength": 100,
+                "dataPrecision": 10,
+                "dataScale": 0,
+                "nullable": "N"
+            }
+          },
+      "nama_pelanggan": {
+        "type": "String",
+        "required": true,
+        "length": 100,
+        "precision": 10,
+        "scale": 0,
+        
+        "mysql": {
+            "columnName": "nama_pelanggan",
+            "dataType": "varchar",
+            "dataLength": 100,
+            "dataPrecision": 10,
+            "dataScale": 0,
+            "nullable": "N"
+        }
+      },
+      
+      "nama_barang": {
+        "type": "String",
+        "required": true,
+        "length": 100,
+        "precision": 10,
+        "scale": 0,
+        
+        "mysql": {
+            "columnName": "nama_barang",
+            "dataType": "varchar",
+            "dataLength": 100,
+            "dataPrecision": 10,
+            "dataScale": 0,
+            "nullable": "N"
+        }
+    },
+      
+    "harga": {
+        "type": "Number",
+        "required": true,
+        "length": 100,
+        "precision": 10,
+        "scale": 0,
+        "mysql": {
+            "columnName": "harga",
+            "dataType": "int",
+            "dataLength": 100,
+            "dataPrecision": 10,
+            "dataScale": 0,
+            "nullable": "N"
+        }
+      }
+    }
+  }
