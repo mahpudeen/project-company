@@ -73,20 +73,38 @@
             "nullable": "N"
         }
     },
-      
+
     "harga": {
-        "type": "Number",
-        "required": true,
-        "length": 100,
-        "precision": 10,
-        "scale": 0,
-        "mysql": {
-            "columnName": "harga",
-            "dataType": "int",
-            "dataLength": 100,
-            "dataPrecision": 10,
-            "dataScale": 0,
-            "nullable": "N"
+      "type": "Number",
+      "required": true,
+      "length": 100,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+          "columnName": "harga",
+          "dataType": "int",
+          "dataLength": 100,
+          "dataPrecision": 10,
+          "dataScale": 0,
+          "nullable": "N"
+
+    
+      }
+    },
+      
+    "clientId": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "clientId",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "N"
         }
       }
     }
